@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applicant Dashboard - BAUET e-Recruitment</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<div class="mx-16">
+<div class="navbar bg-base-100 shadow-sm">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+      </div>
+      <ul tabindex="-1" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+        <li><a>Home</a></li>
+        <li>
+          <a>Available Jobs</a>
+        </li>
+        <li><a>Applicant Copy</a></li>
+        <li><a>Payment</a></li>
+        <li><a>Admit Card</a></li>
+        <li><a>Contact</a></li>
+      </ul>
+    </div>
+    <img class="size-28" src="/image/BAUET Logo.jpeg" alt="">
+    <div class="font-serif text-[#246b07] font-bold text-xl">
+        <h2>Bangladesh Army University</h2>
+        <h2>of Engineering & Technology</h2>
+    </div>
+  </div>
+
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+      <li><a>Home</a></li>
+      <li><a>Available Jobs</a></li>
+      <li><a>Applicant Copy</a></li>
+      <li><a>Payment</a></li>
+      <li><a>Admit Card</a></li>
+      <li><a>Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="navbar-end">
+    <div class="mr-16">
+      <p class="font-serif font-bold text-green-700">BAUET Online Recruitment</p>
+    </div>
+    <a class="btn bg-[#246b07] text-white w-24">Logout</a>
+  </div>
+</div>
+</div>
+
+
+<!-- ================= DASHBOARD HEADER ================= -->
+<div class="bg-orange-50 p-10">
+    <h1 class="text-3xl font-serif text-[#246b07] font-bold ml-64">
+        Applicant Dashboard
+    </h1>
+
+    <div class="ml-64 mt-4 mb-6">
+        <p class="text-base text-gray-700"><b>Name:</b> Applicant Name</p>
+        <p class="text-base text-gray-700"><b>Email:</b> applicant@email.com</p>
+        <p class="text-base text-gray-700"><b>Phone:</b> 017XXXXXXXX</p>
+    </div>
+
+    <!-- ================= DASHBOARD CARDS ================= -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ml-64 mr-10">
+
+        <!-- Apply for Job -->
+        <div class="card bg-base-100 shadow-xl border">
+          <div class="card-body">
+            <h2 class="card-title font-bold">Apply for Job</h2>
+            <p>See available job circulars and apply.</p>
+            <div class="card-actions justify-end">
+              <a href="#" class="btn bg-[#246b07] text-white">Apply Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Application Status -->
+        <div class="card bg-base-100 shadow-xl border">
+          <div class="card-body">
+            <h2 class="card-title font-bold">Application Status</h2>
+            <p>Check your submitted application status.</p>
+            <div class="card-actions justify-end">
+              <a href="#" class="btn btn-info text-white">View Status</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Upload Photo & Signature -->
+        <div class="card bg-base-100 shadow-xl border">
+          <div class="card-body">
+            <h2 class="card-title font-bold">Upload Photo & Signature</h2>
+            <p>Upload photo & signature for your application.</p>
+            <div class="card-actions justify-end">
+              <a href="#" class="btn btn-warning text-white">Upload</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Payment Status -->
+        <div class="card bg-base-100 shadow-xl border">
+          <div class="card-body">
+            <h2 class="card-title font-bold">Payment Status</h2>
+            <p>Verify and complete your application payment.</p>
+            <div class="card-actions justify-end">
+              <a href="#" class="btn btn-success text-white">View Payment</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Download Applicant Copy PDF -->
+        <div class="card bg-base-100 shadow-xl border">
+          <div class="card-body">
+            <h2 class="card-title font-bold">Applicant Copy (PDF)</h2>
+            <p>Download your applicant copy PDF file.</p>
+            <div class="card-actions justify-end">
+              <a href="#" class="btn btn-primary">Download</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Update Profile -->
+        <div class="card bg-base-100 shadow-xl border">
+          <div class="card-body">
+            <h2 class="card-title font-bold">Update Profile</h2>
+            <p>Edit your applicant information.</p>
+            <div class="card-actions justify-end">
+              <a href="#" class="btn bg-purple-600 text-white">Edit</a>
+            </div>
+          </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- ================= FOOTER ================= -->
+<div class="m-12">
+<footer class="footer text-base-content p-10 bg-sky-900 text-white">
+    <nav>
+        <div class="ml-24">
+            <h6 class="footer-title text-zinc-100 ml-32">About BAUET</h6>
+            <p class="flex justify-center">
+              BAUET is a premier educational institution under the Bangladesh Army,<br>
+              providing high-quality higher education in engineering & technology.
+            </p>
+        </div>
+    </nav>
+
+    <nav>
+      <h6 class="footer-title">Featured Links</h6>
+      <a class="link link-hover">About</a>
+      <a class="link link-hover">Contact</a>
+      <a class="link link-hover">Jobs</a>
+    </nav>
+
+    <nav>
+      <h6 class="footer-title">Contact Us</h6>
+      <a class="link link-hover">Terms of use</a>
+      <a class="link link-hover">Privacy policy</a>
+    </nav>
+</footer>
+
+<div class="footer bg-sky-900 text-white p-10">
+    <div class="text-center">
+        &copy; Sifatul Jannat — All rights reserved.
+    </div>
+</div>
+</div>
+
+</body>
+</html>
